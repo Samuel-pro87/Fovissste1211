@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\fovi_detalle_mail;
 use Illuminate\Http\Request;
 
-class allieController extends Controller
+class DCMailController extends Controller
 {
-      /**
+    /**
      * Create a new controller instance.
      *
      * @return void
@@ -23,7 +24,6 @@ class allieController extends Controller
     public function index()
     {
         //
-        return view('allie/slick');
     }
 
     /**
@@ -44,7 +44,17 @@ class allieController extends Controller
      */
     public function store(Request $request)
     {
-        //
+         //return $request->all();
+
+         $mail = new fovi_detalle_mail();
+
+         $mail->rfc = $request->rfc;
+         $mail->ejecutivo = $request->ejecutivo;
+         $mail->email = $request->email;
+         $mail->categoria = $request->categoria;
+
+         $mail->save();
+
     }
 
     /**

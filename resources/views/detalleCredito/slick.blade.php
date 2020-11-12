@@ -17,8 +17,8 @@
     <!-- Page Content -->
     <div class="content">
         <div class="my-50 text-center">
-        <h2 class="font-w700 text-black mb-10"></h2>
-        <h3 class="h5 text-muted mb-0"></h3>
+            <h2 class="font-w700 text-black mb-10">Slick Slider Exampleee</h2>
+            <h3 class="h5 text-muted mb-0">Plugin Integration</h3>
         </div>
         <div class="row justify-content-center">
             <div class="col-md-6">
@@ -26,7 +26,7 @@
                 <div class="block">
                     <div class="block-content">
                         <p class="text-muted">
-                            fecha de Creación:
+                            This page showcases how easily you can add a plugin’s JS/CSS assets and init it using a Codebase JS helper.
                         </p>
                     </div>
                 </div>
@@ -35,19 +35,18 @@
                 <!-- Slider with dots -->
                 <div class="block">
                     <div class="block-header">
-                        <h3 class="block-title">Avatar</h3>
+                        <h3 class="block-title">Dots</h3>
                     </div>
                     <div class="js-slider" data-dots="true">
                         <div>
-                            <img class="img-fluid" src="{{ asset('assets/media/photos/photo28@2x.jpg')}}" alt="photo">
-                        </div>
-                       <!-- <div>
-                        <img class="img-fluid" src="{{ asset('assets/media/photos/photo27@2x.jpg')}}" alt="photo">
-
+                            <img class="img-fluid" src="{{ asset('media/photos/photo27@2x.jpg')}}" alt="photo">
                         </div>
                         <div>
-                            <img class="img-fluid" src="{{ asset('assets/media/photos/photo29@2x.jpg')}}" alt="photo">
-                        </div>-->
+                            <img class="img-fluid" src="{{ asset('media/photos/photo28@2x.jpg')}}" alt="photo">
+                        </div>
+                        <div>
+                            <img class="img-fluid" src="{{ asset('media/photos/photo29@2x.jpg')}}" alt="photo">
+                        </div>
                     </div>
                     <!-- END Slider with dots -->
                 </div>

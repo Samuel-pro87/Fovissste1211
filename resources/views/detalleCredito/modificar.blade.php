@@ -1,7 +1,5 @@
 @extends('layouts.app')
 
-@section('title', 'nueva')
-
 @section('content')
     <!-- Page Content -->
     <div class="content">
